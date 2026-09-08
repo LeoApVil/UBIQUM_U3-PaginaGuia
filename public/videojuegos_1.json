@@ -1,0 +1,204 @@
+{
+  "videojuegos": [
+    {
+      "titulo": "Elden Ring",
+      "desarrollador": "FromSoftware",
+      "plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgXl7KIh7u6rRUlp5sTxmdbOnRlv3GQ6WG1fUSaHzDHk0747Wf_1Whfw&s=10",
+      "precio": 59.99,
+      "valoracion": 9.5,
+      "anyo_lanzamiento": 2022
+    },
+    {
+      "titulo": "Dragon Ball FighterZ",
+      "desarrollador": "Arc System Works",
+      "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://static.wikia.nocookie.net/dragonballfighterz/images/9/92/Dragon_Ball_FighterZ_Cover.jpg/revision/latest/thumbnail/width/360/height/450?cb=20180902175307",
+      "precio": 39.99,
+      "valoracion": 8.7,
+      "anyo_lanzamiento": 2018
+    },
+    {
+      "titulo": "The Legend of Zelda: Tears of the Kingdom",
+      "desarrollador": "Nintendo",
+      "plataformas": ["Nintendo Switch"],
+      "multijugador": false,
+      "imagen": "https://i.blogs.es/4cd445/zelda-tears-of-the-kingdom-link/1366_2000.jpeg",
+      "precio": 69.99,
+      "valoracion": 9.8,
+      "anyo_lanzamiento": 2023
+    },
+    {
+      "titulo": "Street Fighter 6",
+      "desarrollador": "Capcom",
+      "plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://media.revistagq.com/photos/6453829c70142ffce4414eea/16:9/w_2560%2Cc_limit/Street-Fighter-6.jpeg",
+      "precio": 49.99,
+      "valoracion": 9.0,
+      "anyo_lanzamiento": 2023
+    },
+    {
+      "titulo": "Baldur's Gate III",
+      "desarrollador": "Larian Studios",
+      "plataformas": ["PC", "PlayStation 5", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://sm.ign.com/t/ign_latam/review/b/baldurs-ga/baldurs-gate-3-review_z2q4.1024.jpg",
+      "precio": 59.99,
+      "valoracion": 9.7,
+      "anyo_lanzamiento": 2023
+    },
+    {
+      "titulo": "JoJo's Bizarre Adventure: All Star Battle R",
+      "desarrollador": "CyberConnect2",
+      "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202203/0821/JkT33r5jGEkcwXm3TgeNUTKm.jpg",
+      "precio": 44.99,
+      "valoracion": 8.3,
+      "anyo_lanzamiento": 2022
+    },
+    {
+      "titulo": "Hades",
+      "desarrollador": "Supergiant Games",
+      "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+      "multijugador": false,
+      "imagen": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/a/a0/Hades_Pack_Art.png/revision/latest?cb=20181213192439",
+      "precio": 24.99,
+      "valoracion": 9.3,
+      "anyo_lanzamiento": 2020
+    },
+    {
+      "titulo": "Fatal Fury: City of the Wolves",
+      "desarrollador": "SNK",
+      "plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAXZ1sVpt8PKG3kOdiV4G2dMHrH1uG2HRm9Dkwh7CmU8wvvGZOGuvUsmMn&s=10",
+      "precio": 54.99,
+      "valoracion": 8.5,
+      "anyo_lanzamiento": 2025
+    },
+    {
+      "titulo": "Cyberpunk 2077",
+      "desarrollador": "CD Projekt Red",
+      "plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+      "multijugador": false,
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202008/0416/6Bo40lnWU0BhgrOUm7Cb6by3.png",
+      "precio": 29.99,
+      "valoracion": 8.8,
+      "anyo_lanzamiento": 2020
+    },
+    {
+      "titulo": "The King of Fighters XV",
+      "desarrollador": "SNK",
+      "plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1498570/capsule_616x353.jpg?t=1742873915",
+      "precio": 39.99,
+      "valoracion": 8.4,
+      "anyo_lanzamiento": 2022
+    },
+    {
+      "titulo": "Stardew Valley",
+      "desarrollador": "ConcernedApe",
+      "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One", "Android", "iOS"],
+      "multijugador": true,
+      "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1754692865",
+      "precio": 14.99,
+      "valoracion": 9.4,
+      "anyo_lanzamiento": 2016
+    },
+    {
+      "titulo": "Guilty Gear Strive",
+      "desarrollador": "Arc System Works",
+      "plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://image.api.playstation.com/vulcan/img/rnd/202101/2010/BbUdRzKqfrRRdleEjJxDAdGG.jpg",
+      "precio": 49.99,
+      "valoracion": 9.1,
+      "anyo_lanzamiento": 2021
+    },
+    {
+      "titulo": "Metroid Dread",
+      "desarrollador": "Nintendo / MercurySteam",
+      "plataformas": ["Nintendo Switch"],
+      "multijugador": false,
+      "imagen": "https://ru.m.wikipedia.org/wiki/Metroid_Dread",
+      "precio": 59.99,
+      "valoracion": 8.9,
+      "anyo_lanzamiento": 2021
+    },
+    {
+      "titulo": "Tekken 8",
+      "desarrollador": "Bandai Namco",
+      "plataformas": ["PC", "PlayStation 5", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1621/rCvLik1PKDSoCaEvTIx42H3Q.png",
+      "precio": 59.99,
+      "valoracion": 9.2,
+      "anyo_lanzamiento": 2024
+    },
+    {
+      "titulo": "Disco Elysium",
+      "desarrollador": "ZA/UM",
+      "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+      "multijugador": false,
+      "imagen": "https://play-lh.googleusercontent.com/G0CG3O3CyNn43wjm1zg3O3vdUgO1Yj2He1NlYibrGSSIdUsoKKq5cMCMqIhCJ1gqafOoeAOjHlnqslu0PqG9Eg",
+      "precio": 34.99,
+      "valoracion": 9.6,
+      "anyo_lanzamiento": 2019
+    },
+    {
+      "titulo": "Mortal Kombat 1",
+      "desarrollador": "NetherRealm Studios",
+      "plataformas": ["PC", "Nintendo Switch", "PlayStation 5", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://j-gjuegosdigitales.com/cdn/shop/articles/file_b23da535-5efe-4d1a-8546-c9f95d741a36.jpg?v=1743609138",
+      "precio": 49.99,
+      "valoracion": 8.6,
+      "anyo_lanzamiento": 2023
+    },
+    {
+      "titulo": "Hollow Knight",
+      "desarrollador": "Team Cherry",
+      "plataformas": ["PC", "Nintendo Switch", "PlayStation 4", "Xbox One"],
+      "multijugador": false,
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Hollow_Knight_2026_cover_art.jpg/250px-Hollow_Knight_2026_cover_art.jpg",
+      "precio": 14.99,
+      "valoracion": 9.0,
+      "anyo_lanzamiento": 2017
+    },
+    {
+      "titulo": "Granblue Fantasy Versus: Rising",
+      "desarrollador": "Arc System Works",
+      "plataformas": ["PC", "PlayStation 4", "PlayStation 5"],
+      "multijugador": true,
+      "imagen": "https://rising.granbluefantasy.jp/assets/images/kv.f015d749.jpg",
+      "precio": 44.99,
+      "valoracion": 8.2,
+      "anyo_lanzamiento": 2023
+    },
+    {
+      "titulo": "Red Dead Redemption 2",
+      "desarrollador": "Rockstar Games",
+      "plataformas": ["PC", "PlayStation 4", "Xbox One", "PlayStation 5", "Xbox Series X/S"],
+      "multijugador": true,
+      "imagen": "https://pressover.news/wp-content/uploads/2018/05/red-dead-redemption-2-trailer-3.jpg",
+      "precio": 39.99,
+      "valoracion": 9.8,
+      "anyo_lanzamiento": 2018
+    },
+    {
+      "titulo": "JoJo's Bizarre Adventure: Heritage for the Future",
+      "desarrollador": "Capcom",
+      "plataformas": ["Arcade", "Dreamcast", "PlayStation"],
+      "multijugador": true,
+      "imagen": "https://m.gjcdn.net/game-screenshot/400/1090946-ll-jigqhehg-v4.webp",
+      "precio": 19.99,
+      "valoracion": 8.0,
+      "anyo_lanzamiento": 1999
+    }
+  ]
+}
