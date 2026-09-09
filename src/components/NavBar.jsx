@@ -25,7 +25,7 @@ function Navbar() {
           onClick={closeMenus}
         >
           <i className="bi bi-rocket-takeoff me-2"></i>
-          Mi Sitio
+          React y Firebase
         </NavLink>
 
         {/* Botón hamburguesa */}

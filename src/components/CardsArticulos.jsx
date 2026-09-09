@@ -22,10 +22,13 @@ function Card({ titulo, descripcion, imagen }) {
 
 function ListaArticulos() {
   const articulos = [
-    { id: 1, titulo: 'React para principiantes', descripcion: 'Aprende los fundamentos de React', imagen: 'https://via.placeholder.com/250x150/FF6B6B/FFFFFF?text=React' },
-    { id: 2, titulo: 'JSX explicado', descripcion: 'Entiende cómo funciona JSX', imagen: 'https://via.placeholder.com/250x150/4ECDC4/FFFFFF?text=JSX' },
-    { id: 3, titulo: 'Componentes en React', descripcion: 'Crea componentes reutilizables', imagen: 'https://via.placeholder.com/250x150/45B7D1/FFFFFF?text=Componentes' },
-    { id: 4, titulo: 'Estado y props', descripcion: 'Maneja datos en tus componentes', imagen: 'https://via.placeholder.com/250x150/F9CA24/FFFFFF?text=Estado' }
+    { id: 1, titulo: 'React-Vite', descripcion: 'Adentrate y aprende lo básico de React y Vite.', imagen: '#' },
+    { id: 2, titulo: 'Firebase', descripcion: 'Aloja y despliega tu proyecto.', imagen: '#' },
+    { id: 3, titulo: 'Hooks', descripcion: 'Aprende qué son los Hooks de React.', imagen: '#' },
+    { id: 4, titulo: 'Realtime Database', descripcion: 'Crea tu primer conexión a una Base de Datos no relacional.', imagen: '#' },
+    { id: 5, titulo: 'Google Authentication', descripcion: 'Implementa el autenticador de Google.', imagen: '#' },
+    { id: 6, titulo: 'Cloudinary', descripcion: 'Aloja archivos subidos desde tu app web.', imagen: '#' },
+    { id: 7, titulo: 'PWA', descripcion: 'Deja que instalen tu app web.', imagen: '#' }
   ];
 
   return (
