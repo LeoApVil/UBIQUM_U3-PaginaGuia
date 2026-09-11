@@ -1,13 +1,6 @@
 import { useEffect, useState } from "react";
 import { db } from "../../services/firebase";
-import {
-  ref,
-  onValue,
-  update,
-  push,
-  set,
-  remove
-} from "firebase/database";
+import { ref, onValue } from "firebase/database";
 import { APIjson } from "../../services/APIjson";
 
 import { useNavigate } from "react-router-dom";
@@ -86,22 +79,69 @@ function EjemploRTDB() {
                   </p>
                 </div>
               </div>
-
+{/*  */}
               <div className="col-3 col-sm-3 d-flex justify-content-center gap-2">
                 <button
-                  className="btn btn-primary"
                   type="button"
-                  onClick={() =>
-                    navigate(`/videojuegos/editar/${videojuego.id}`)
-                  }
+                  onClick={() => navigate(`/videojuegos/editar/${videojuego.id}`)}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = "#0b5ed7";
+                    e.currentTarget.style.borderColor = "#0a58ca";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = "#0d6efd";
+                    e.currentTarget.style.borderColor = "#0d6efd";
+                  }}
+                  style={{
+                    display: "inline-block",
+                    fontWeight: 400,
+                    lineHeight: 1.5,
+                    textAlign: "center",
+                    textDecoration: "none",
+                    verticalAlign: "middle",
+                    cursor: "pointer",
+                    userSelect: "none",
+                    border: "1px solid #0d6efd",
+                    padding: "0.375rem 0.75rem",
+                    fontSize: "1rem",
+                    borderRadius: "0.375rem",
+                    color: "#fff",
+                    backgroundColor: "#0d6efd",
+                    transition: "all 0.15s ease-in-out",
+                    marginRight: "0.5rem",
+                  }}
                 >
                   Editar
                 </button>
 
                 <button
-                  className="btn btn-danger"
                   type="button"
                   onClick={() => borrarVidJ({ id: videojuego.id })}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = "#bb2d3b";
+                    e.currentTarget.style.borderColor = "#b02a37";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = "#dc3545";
+                    e.currentTarget.style.borderColor = "#dc3545";
+                  }}
+                  style={{
+                    display: "inline-block",
+                    fontWeight: 400,
+                    lineHeight: 1.5,
+                    textAlign: "center",
+                    textDecoration: "none",
+                    verticalAlign: "middle",
+                    cursor: "pointer",
+                    userSelect: "none",
+                    border: "1px solid #dc3545",
+                    padding: "0.375rem 0.75rem",
+                    fontSize: "1rem",
+                    borderRadius: "0.375rem",
+                    color: "#fff",
+                    backgroundColor: "#dc3545",
+                    transition: "all 0.15s ease-in-out",
+                  }}
                 >
                   Eliminar
                 </button>
