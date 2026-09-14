@@ -382,6 +382,67 @@ function Navbar() {
               </ul>
             </li>
 
+            {/* ================= AUTHENTICATION ================= */}
+            <li className="nav-item dropdown">
+              <button
+                className={`nav-link dropdown-toggle ${
+                  openMenu === "cloudinary" ? "show" : ""
+                }`}
+                type="button"
+                onClick={() => toggleMenu("cloudinary")}
+                aria-expanded={openMenu === "cloudinary"}
+              >
+                <i className="bi bi-person-lock me-1"></i>
+                Cloudinary
+              </button>
+
+              <ul
+                className={`dropdown-menu ${
+                  openMenu === "cloudinary" ? "show" : ""
+                }`}
+              >
+                {/* Definiciones / Tutorial */}
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/Cloudinary"
+                    onClick={closeMenus}
+                  >
+                    <i className="bi bi-book me-2"></i>
+                    Cloudinary
+                  </NavLink>
+                </li>
+
+                {/* Implementación */}
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/ImplementacionCloud"
+                    onClick={closeMenus}
+                  >
+                    <i className="bi bi-code-square me-2"></i>
+                    Implementación
+                  </NavLink>
+                </li>
+
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+
+                {/* Demostración */}
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/EjemploCloud"
+                    onClick={closeMenus}
+                  >
+                    <i className="bi bi-person-check me-2"></i>
+                    Demostración
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
+
           </ul>
         </div>
       </div>
