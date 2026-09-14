@@ -433,7 +433,7 @@ function Navbar() {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/EjemploCloud"
+                    to="/EjemploCloudinary"
                     onClick={closeMenus}
                   >
                     <i className="bi bi-person-check me-2"></i>

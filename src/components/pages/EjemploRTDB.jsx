@@ -79,7 +79,7 @@ function EjemploRTDB() {
                   </p>
                 </div>
               </div>
-{/*  */}
+              
               <div className="col-3 col-sm-3 d-flex justify-content-center gap-2">
                 <button
                   type="button"

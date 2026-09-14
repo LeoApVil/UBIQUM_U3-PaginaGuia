@@ -1,6 +1,6 @@
 export const CloudinaryService = async (file) =>
 {
-    const preset_name = "nysl_chatImgs"
+    const preset_name = "leoapvil_pagReactTuto"
     const cloud_name = "dftg94wb4"
     const url_api = `https://api.cloudinary.com/v1_1/${cloud_name}/image/upload`
 
