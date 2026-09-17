@@ -32,23 +32,48 @@ export const EjemploCloudinary = () =>{
 
     return (
         <>
-            <section>
-                <h1>Ejemplo de uso de Cloudinary</h1><br /><br />
+            <section className="container mt-4">
+                <h1 className="mb-4">Ejemplo de uso de Cloudinary</h1>
 
-                {consolas.map((consola) =>
-                    (<div key={consola.id}>
-                        <h1>{consola.nombre}</h1>
-                        <img src={consola.urlImg}
-                        alt={consola.nombre}
-                        width="250"
-                        height="250"></img>
-                        <p>{consola.descripcion}</p>
-                        <hr />
-                        <button
-                            onClick={() => navigate(`/consolas/editar/${consola.id}`)}
-                        >Editar</button>
-                    </div>)
-                )}
+                <div className="list-group">
+                    {consolas.map((consola) => (
+                        <div
+                            key={consola.id}
+                            className="list-group-item list-group-item-action"
+                        >
+                            <div className="d-flex align-items-center gap-4">
+
+                                <img
+                                    src={consola.urlImg}
+                                    alt={consola.nombre}
+                                    width="150"
+                                    height="150"
+                                    className="rounded object-fit-cover"
+                                />
+
+                                <div className="flex-grow-1">
+                                    <h2 className="h4 mb-2">
+                                        {consola.nombre}
+                                    </h2>
+
+                                    <p className="mb-3">
+                                        {consola.descripcion}
+                                    </p>
+
+                                    <button
+                                        className="btn btn-primary"
+                                        onClick={() =>
+                                            navigate(`/consolas/editar/${consola.id}`)
+                                        }
+                                    >
+                                        Editar
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </section>
         </>
     )

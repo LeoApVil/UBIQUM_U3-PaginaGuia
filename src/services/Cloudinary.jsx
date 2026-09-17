@@ -19,18 +19,20 @@ export const CloudinaryService = async (file) =>
             }
         )
 
+        const result = await response.json()
+
         if(!response.ok){
             console.log("Error al subir la imagen")
-        }
-        
-        const result = await response.json()
-        console.log(result);
+            return result.error
 
-        return result.secure_url
+        }else if (response.ok){
+            console.log(result)
+            return result
+        }
 
     }catch(error) 
     {
-        console.error(error.message)
-        return null;
+        console.error(error)
+        throw error;
     }
 }
